@@ -3,7 +3,7 @@
  <div>
    <a href="https://github.com/SavioDNM">
    <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=6&theme=tokyonight"/>
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right" height="150px"/>
 
 </div>
 <div style="display: inline_block"><br>
