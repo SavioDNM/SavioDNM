@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil do SavioDNM 😁
+## Bem-vindo(a) ao perfil do SavioDNM 
 
  <div>
    <a href="https://github.com/SavioDNM">
