@@ -9,7 +9,6 @@
   - 👯 Estou procurando colaborar em projetos de Desenvolvimento Web Front-End<br>
   - 🤔 Estou procurando ajuda com os estudos<br>
   - 💬 Pergunte-me sobre o que quiser<br>
-  - 📫 Como entrar em contato comigo: https://www.linkedin.com/in/saviodomingos/<br>
  </div>
  
 <br>
