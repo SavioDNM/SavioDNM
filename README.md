@@ -1,5 +1,6 @@
-## Bem-vindo(a) ao perfil do SavioDNM 
-
+# 👋 Olá! Bem vindo(a) ao meu perfil do GitHub.
+### Meu nome é Savio Domingos e meu nickname é "SavioDNM"!
+<br>
  <div>
    <a href="https://github.com/SavioDNM">
    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
