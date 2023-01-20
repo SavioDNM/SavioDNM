@@ -1,5 +1,16 @@
 # 👋 Olá! Bem vindo(a) ao meu perfil do GitHub.
 ### Meu nome é Savio Domingos e meu nickname é "SavioDNM"!
+
+<br>
+
+## Sobre mim:
+- 🔭 Atualmente não estou trabalhando
+- 🌱 Atualmente estou aprendendo Html, Css e JavaScript
+- 👯 Estou procurando colaborar em projetos de FrontEnd
+- 🤔 Estou procurando ajuda com os estudos
+- 💬 Pergunte-me sobre o que quiser
+- 📫 Como entrar em contato comigo: https://www.linkedin.com/in/saviodomingos/
+
 <br>
  <div>
    <a href="https://github.com/SavioDNM">
