@@ -6,7 +6,7 @@
  <div> 
   - 🔭 Atualmente não estou trabalhando<br>
   - 🌱 Atualmente estou aprendendo Html, Css e JavaScript<br>
-  - 👯 Estou procurando colaborar em projetos de FrontEnd<br>
+  - 👯 Estou procurando colaborar em projetos de Desenvolvimento Web Front-End<br>
   - 🤔 Estou procurando ajuda com os estudos<br>
   - 💬 Pergunte-me sobre o que quiser<br>
   - 📫 Como entrar em contato comigo: https://www.linkedin.com/in/saviodomingos/<br>
