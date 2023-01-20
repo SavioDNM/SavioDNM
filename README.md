@@ -3,7 +3,7 @@
  <div>
    <a href="https://github.com/SavioDNM">
    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-   <img src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right" height="140px"/>
+   <img align="column" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right" height="140px"/>
 </div>
 
 <br>
@@ -22,5 +22,3 @@
   <a href="https://instagram.com/saviodnm" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:saviocorp@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/saviodomingos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- 
-</div>
