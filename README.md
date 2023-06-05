@@ -4,8 +4,8 @@
 
 ## Sobre mim:<br>
  <div> 
-  - 🔭 Atualmente não estou trabalhando<br>
-  - 🌱 Atualmente estou aprendendo Html, Css e JavaScript<br>
+  - 🔭 Atualmente estou trabalhando na CSP Tech<br>
+  - 🌱 Atualmente estou aprendendo Html, Css, JavaScript, React, SharePoint...<br>
   - 👯 Estou procurando colaborar em projetos de Desenvolvimento Web Front-End<br>
   - 🤔 Estou procurando ajuda com os estudos<br>
   - 💬 Pergunte-me sobre o que quiser<br>
