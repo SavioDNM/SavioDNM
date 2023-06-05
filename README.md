@@ -15,8 +15,8 @@
 
 <div>
    <a href="https://github.com/SavioDNM">
-   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
-   <img height="170em" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right"/>
+   <img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
+   <img height="165em" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right"/>
     </div>
 
 <br>
