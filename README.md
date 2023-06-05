@@ -3,21 +3,21 @@
 <p align="center">
 
 ## Sobre mim:<br>
- <div> 
+<div> 
   - 🔭 Atualmente estou trabalhando na CSP Tech<br>
   - 🌱 Atualmente estou aprendendo Html, Css, JavaScript, React, SharePoint...<br>
   - 👯 Estou procurando colaborar em projetos de Desenvolvimento Web Front-End<br>
   - 🤔 Estou procurando ajuda com os estudos<br>
   - 💬 Pergunte-me sobre o que quiser<br>
- </div>
+</div>
  
 <br>
- <div>
+
+<div>
    <a href="https://github.com/SavioDNM">
-   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
-   <img height="180em" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right"/>
-    
-</div>
+   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
+   <img height="160em" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right"/>
+    </div>
 
 <br>
 
