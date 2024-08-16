@@ -34,6 +34,10 @@
 
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg">
   
+  <img align="center" alt="Node" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg">
+  
+  <img align="center" alt="Figma" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
+  
 </div>
  
  <br>
