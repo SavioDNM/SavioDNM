@@ -13,11 +13,12 @@
  
 <br>
 
-<div style="display: flex">
-   <a href="https://github.com/SavioDNM">
-   <img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
-    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&show_icons=true)
-</div>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=SavioDNM" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=SavioDNM&layout=compact&langs_count=8&card_width=320" />
+</a>
 
 <br>
 
