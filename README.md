@@ -1,4 +1,4 @@
-## 👋 Olá! Bem vindo(a) ao meu perfil do SavioDNM.
+## 👋 Olá! Bem vindo(a) ao meu perfil.
 
 ## Sobre mim:<br>
 <div> 
