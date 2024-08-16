@@ -13,11 +13,10 @@
  
 <br>
 
-<div style="display: inline_block">
+<div style="display: flex">
    <a href="https://github.com/SavioDNM">
    <img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&count_private=false"/>
-     
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)
+    ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&show_icons=true&theme=transparent)
 </div>
 
 <br>
