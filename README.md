@@ -20,6 +20,9 @@
    <img height="165em" src="https://github-readme-stats-kk.vercel.app/api/top-langs/?username=SavioDNM&langs_count=3&theme=tokyonight&layout=compact&border_color=000000" alt="Most used languages" align="right"/>
     </div>
 
+[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-dark-mode-only)
+[![Anurag's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#gh-light-mode-only)
+
 <br>
 
 <div style="display: inline_block"><br>
