@@ -37,6 +37,8 @@
   
   <img align="center" alt="Figma" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
   
+  <img align="center" alt="Sass" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg">
+  
 </div>
  
  <br>
