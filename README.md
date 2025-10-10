@@ -31,7 +31,7 @@ Atualmente, trabalho na **CSP Tech**, focado em **desenvolvimento web** e automa
 ---
 
 ### 📊 Estatísticas do GitHub
-<div align="center">
+<div align="left">
 
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=SavioDNM&langs_count=8&hide_border=true" />
