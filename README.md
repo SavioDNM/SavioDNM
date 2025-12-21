@@ -24,6 +24,8 @@
   <img alt="Node.js" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg">
   <img alt="Figma" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
   <img alt="Sass" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg">
+  <img alt="WordPress" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/Wordpress.svg">
+  
 
 </div>
 
