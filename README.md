@@ -1,7 +1,6 @@
 ## 👋 Olá, bem-vindo(a) ao meu perfil!
 
-Sou **Sávio Domingos**, desenvolvedor em constante aprendizado e apaixonado por tecnologia.  
-Atualmente, trabalho na **CSP Tech**, focado em **desenvolvimento web** e automação de processos com **SharePoint** e **Power Platform**.
+**Desenvolvedor Full Stack** | **Cloud & Automation** na CSP Tech. Experiência com **Power Platform**, **SharePoint/SPFx**, **Node.js**, **React** e soluções low-code focadas em eficiência e escala..
 
 ---
 
