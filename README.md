@@ -5,11 +5,11 @@
 ---
 
 ### 🚀 Sobre mim
-- 🔭 Trabalhando atualmente na **CSP Tech**  
-- 🌱 Aprendendo **HTML**, **CSS**, **JavaScript**, **React**, **SharePoint** e muito mais  
-- 👯 Buscando colaborar em projetos de **Desenvolvimento Web Front-End**  
-- 🤝 Aberto a trocar ideias e aprender junto  
-- 💬 Pode me chamar pra conversar sobre **tecnologia, design ou automação**  
+- 🔭 Atuando como Desenvolvedor Full Stack na CSP Tech
+- 🌱 Evoluindo em Cloud (AWS/Azure), Node.js, React (JavaScript/TypeScript), SharePoint/SPFx e Power Platform
+- 👯 Buscando colaborar em projetos de desenvolvimento web, automação e soluções cloud
+- 🤝 Aberto a trocar ideias, aprender em conjunto e construir soluções escaláveis
+- 💬 Pode me chamar pra conversar sobre tecnologia, automação, low-code/no-code e integrações  
 
 ---
 
