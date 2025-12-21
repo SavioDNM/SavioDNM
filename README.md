@@ -5,7 +5,7 @@
 ---
 
 ### 🚀 Sobre mim
-- 🔭 Atuando como Desenvolvedor Full Stack na CSP Tech
+- 🔭 Atuando como **Analista Sharepoint** na CSP Tech
 - 🌱 Evoluindo em Cloud (AWS/Azure), Node.js, React (JavaScript/TypeScript), SharePoint/SPFx e Power Platform
 - 👯 Buscando colaborar em projetos de desenvolvimento web, automação e soluções cloud
 - 🤝 Aberto a trocar ideias, aprender em conjunto e construir soluções escaláveis
