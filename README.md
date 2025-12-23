@@ -32,17 +32,46 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
-<div align="center">
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+### 💻 Stack Principal
+<p align="left">
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&hide=jupyter%20notebook"/>
+  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+  
+</p>
+
+---
+
+### 🧠 Tecnologias & Ferramentas
+<div align="left">
+
+  <img alt="TypeScript" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg">
+  <img alt="JavaScript" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg">
+  <img alt="Next.js" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg">
+  <img alt="React" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg">
+  <img alt="TailwindCSS" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg">
+  <img alt="Python" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg">
+  <img alt="Flask" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Flask-Dark.svg">
+  <img alt="Node.js" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg">
+  <img alt="Git" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg">
+  <img alt="Figma" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg">
 
 </div>
 
-<!-- Adicione isso para forçar atualização quando necessário -->
-<!-- Mude o número após ? para quebrar cache: ?v=2 -->
+---
+
+### 📊 Estatísticas do GitHub
+<div align="center">
+
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true"/>
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=10&theme=dark&hide_border=true&hide=html,jupyter%20notebook&exclude_repo=repo-antigo"/>
+
+</div>
 
 ---
 
