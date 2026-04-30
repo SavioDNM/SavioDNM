@@ -1,134 +1,112 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1f35,100:0f3460&height=200&section=header&text=Sávio%20Domingos&fontSize=52&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20·%20Cloud%20%26%20Automation&descSize=17&descAlignY=58&descColor=8b949e" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a1a2e,100:16213e&height=200&section=header&text=S%C3%A1vio%20Domingos&fontSize=52&fontColor=58A6FF&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20SharePoint%20%26%20Power%20Platform&descSize=18&descAlignY=58&descColor=8B949E" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&lines=Analista+SharePoint+%40+CSP+Tech+%F0%9F%8F%A2;Power+Platform+%7C+SPFx+%7C+Node.js+%7C+React;Cloud+%E2%98%81%EF%B8%8F+AWS+%2F+Azure+%7C+Low-code+%2F+No-code;%22A+melhor+forma+de+aprender+%C3%A9+criando.%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+Full+Stack+%F0%9F%9A%80;SharePoint+%26+SPFx+Specialist+%F0%9F%93%8C;Power+Platform+%7C+Automation+%E2%9A%A1;React+%7C+Next.js+%7C+TypeScript+%F0%9F%92%BB;Sempre+aprendendo%2C+sempre+criando+%E2%9C%A8)](https://git.io/typing-svg)
 
 <br/>
 
-<a href="https://www.linkedin.com/in/saviodomingos/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:saviocorp@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://instagram.com/saviodnm" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saviodomingos/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/saviodnm)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saviocorp@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SavioDNM)
 
-<br/><br/>
-
-![Profile views](https://komarev.com/ghpvc/?username=SavioDNM&color=58a6ff&style=flat-square&label=Visitantes)
+![Profile Views](https://komarev.com/ghpvc/?username=SavioDNM&color=58A6FF&style=flat-square&label=Visitas+ao+perfil)
 
 </div>
 
 ---
 
-## ⚡ Sobre mim
+## 👨‍💻 Sobre mim
 
-```ts
+```typescript
 const savio = {
-  role:     "Analista SharePoint @ CSP Tech",
-  stack:    ["TypeScript", "React", "Next.js", "Node.js", "Python"],
-  platform: ["SharePoint / SPFx", "Power Platform", "Power Automate"],
-  cloud:    ["AWS", "Azure"],
-  focus:    "Soluções escaláveis · Automação · Low-code / No-code",
-  now:      "Evoluindo em Cloud, React e integrações enterprise",
-  motto:    "A melhor forma de aprender é criando.",
+  role:       "Analista SharePoint @ CSP Tech",
+  location:   "Ipatinga, Minas Gerais 🇧🇷",
+  stack:      ["TypeScript", "React", "Next.js", "Node.js", "Python"],
+  specialty:  ["SharePoint/SPFx", "Power Platform", "Cloud & Automation"],
+  learning:   ["AWS", "Azure", "AI/LLM Integration"],
+  available:  true, // aberto a colaborações 🤝
 };
 ```
 
-<br/>
-
-- 🔭 &nbsp;Atuando como **Analista SharePoint** na **CSP Tech**
-- ☁️ &nbsp;Evoluindo em **Cloud (AWS / Azure)**, **Node.js**, **React** e **SPFx**
-- 🤝 &nbsp;Aberto a colaborar em projetos de **desenvolvimento web**, **automação** e **soluções cloud**
-- 💬 &nbsp;Pode me chamar pra conversar sobre **tecnologia**, **automação** e **low-code / no-code**
-- ⚡ &nbsp;Curioso por natureza, construtor por escolha
+- 🔭 Atuando como **Analista SharePoint** na **CSP Tech**
+- 🌱 Evoluindo em **Cloud (AWS/Azure)**, **Node.js**, **React/TypeScript** e **SPFx**
+- 👯 Buscando colaborar em projetos de **desenvolvimento web**, **automação** e **soluções cloud**
+- 🤖 Explorando integração de **IA/LLMs** em aplicações reais
+- 💬 Pode me chamar pra conversar sobre tecnologia, automação, low-code/no-code e integrações
 
 ---
 
 ## 🛠️ Tecnologias & Ferramentas
 
-<div align="center">
+### 🌐 Frontend
+<div align="left">
+  <img alt="HTML" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" title="HTML5"/>
+  <img alt="CSS" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" title="CSS3"/>
+  <img alt="JavaScript" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" title="JavaScript"/>
+  <img alt="TypeScript" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg" title="TypeScript"/>
+  <img alt="React" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" title="React"/>
+  <img alt="Next.js" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" title="Next.js"/>
+  <img alt="Tailwind CSS" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TailwindCSS-Dark.svg" title="Tailwind CSS"/>
+  <img alt="Sass" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg" title="Sass"/>
+  <img alt="Figma" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg" title="Figma"/>
+</div>
 
-### 🌐 Front-end
-<img alt="HTML" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg" title="HTML5"/>
-&nbsp;
-<img alt="CSS" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg" title="CSS3"/>
-&nbsp;
-<img alt="JavaScript" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg" title="JavaScript"/>
-&nbsp;
-<img alt="TypeScript" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/TypeScript.svg" title="TypeScript"/>
-&nbsp;
-<img alt="React" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/React-Dark.svg" title="React"/>
-&nbsp;
-<img alt="Next.js" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NextJS-Dark.svg" title="Next.js"/>
-&nbsp;
-<img alt="Sass" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Sass.svg" title="Sass"/>
+### ⚙️ Backend & Cloud
+<div align="left">
+  <img alt="Node.js" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" title="Node.js"/>
+  <img alt="Python" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" title="Python"/>
+  <img alt="Azure" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Azure-Dark.svg" title="Microsoft Azure"/>
+  <img alt="AWS" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/AWS-Dark.svg" title="AWS"/>
+  <img alt="Firebase" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Firebase-Dark.svg" title="Firebase"/>
+</div>
 
-### ⚙️ Back-end & Runtime
-<img alt="Node.js" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/NodeJS-Dark.svg" title="Node.js"/>
-&nbsp;
-<img alt="Python" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Python-Dark.svg" title="Python"/>
-
-### 🏢 Microsoft Ecosystem
-![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
-![Power Platform](https://img.shields.io/badge/Power%20Platform-742774?style=for-the-badge&logo=microsoftpowerplatform&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-0066FF?style=for-the-badge&logo=microsoftpowerautomate&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-### ☁️ Cloud & Infra
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-### 🎨 Design & CMS
-<img alt="Figma" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Figma-Dark.svg" title="Figma"/>
-&nbsp;
-<img alt="WordPress" height="38" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Wordpress.svg" title="WordPress"/>
-
+### 📌 Microsoft & Ferramentas
+<div align="left">
+  <img alt="WordPress" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Wordpress.svg" title="WordPress"/>
+  <img alt="Git" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg" title="Git"/>
+  <img alt="GitHub" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Github-Dark.svg" title="GitHub"/>
+  <img alt="VSCode" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg" title="VS Code"/>
+  <img alt="PowerShell" height="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Powershell-Dark.svg" title="PowerShell"/>
 </div>
 
 ---
 
-## 💼 Stack Principal
+## 💻 Stack Principal
 
-<div align="center">
+<div align="left">
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
+![Power Platform](https://img.shields.io/badge/Power_Platform-742774?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Estatísticas do GitHub
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&border_radius=12"/>
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&border_radius=12&hide=html,jupyter%20notebook&exclude_repo=repo-antigo"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=8B949E"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&hide=html,jupyter%20notebook&exclude_repo=repo-antigo"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SavioDNM&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff7b72&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&border_radius=12" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SavioDNM&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
 
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SavioDNM&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=1a1f35&hide_border=true&radius=12" width="96%" alt="Activity Graph"/>
 </div>
 
 ---
@@ -136,17 +114,15 @@ const savio = {
 ## 🏆 Conquistas
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SavioDNM&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=6" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SavioDNM&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7"/>
 </div>
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:1a1f35,100:0D1117&height=120&section=footer&fontSize=18&fontColor=58a6ff&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0D1117&height=120&section=footer&fontSize=20&fontColor=58A6FF&animation=fadeIn"/>
 
-**Sávio Domingos** · Full Stack Developer · Cloud & Automation
-
-*"A melhor forma de aprender é criando."*
+⭐ *"A melhor forma de aprender é criando."*
 
 </div>
