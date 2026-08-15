@@ -26,23 +26,38 @@
 
 ```ts
 const savio = {
-  cargo:     "Analista SharePoint @ CSP Tech",
-  stack:     ["TypeScript", "React", "Next.js", "Node.js", "Python"],
-  plataforma:["SharePoint / SPFx", "Power Platform", "Power Automate"],
-  cloud:     ["AWS", "Azure"],
-  foco:      "Soluções escaláveis · Automação · Low-code / No-code",
-  agora:     "Evoluindo em Cloud, React e integrações enterprise",
+  nome:       "Sávio Domingos Nogueira Moreno",
+  cargo:      "Analista SharePoint @ CSP Tech",
+  local:      "Niterói, Rio de Janeiro, Brasil",
+  experiencia:"+3 anos em ambientes Microsoft 365",
+  stack:      ["TypeScript", "React", "Next.js", "Node.js", "Docker"],
+  plataforma: ["SharePoint / SPFx", "Power Apps", "Power Automate"],
+  cloud:      ["AWS (Certified Cloud Practitioner)", "Azure", "Terraform"],
+  ia_lowcode: ["Flowise", "n8n", "agentes de IA / LLMs"],
+  foco:       "Portais corporativos · Automação de processos · Integrações via API",
 };
 ```
 
-- 🔭 Atuando como **Analista SharePoint** na **CSP Tech**
-- ☁️ Evoluindo em **Cloud (AWS / Azure)**, **Node.js**, **React** e **SPFx**
+- 🔭 Atuando como **Analista SharePoint** na **CSP Tech**, entregando portais corporativos, automações e integrações para empresas de médio/grande porte
+- ☁️ **AWS Certified Cloud Practitioner** — também com experiência prática em Azure e Terraform (IaC)
+- 🧠 Uso **Flowise**, **n8n** e agentes de IA pra orquestrar automações que economizam meses de desenvolvimento
 - 🤝 Aberto a colaborar em projetos de **desenvolvimento web**, **automação** e **soluções cloud**
 - 💬 Pode me chamar pra conversar sobre **tecnologia**, **automação** e **low-code / no-code**
 
 <br/>
 
-## `02` Stack
+## `02` Trajetória
+
+| Período | Empresa | Papel |
+|---|---|---|
+| jan/2024 – atual | **CSP Tech** | Analista SharePoint |
+| abr/2023 – dez/2023 | CSP Tech | Estagiário Full-Stack Digital Workplace |
+| set/2021 – nov/2022 | Seven Clouds | Desenvolvedor de Software Trainee (Cloud/DevOps) |
+| — | Santander · Samsung | Atendimento ao cliente · Experiência do cliente |
+
+<br/>
+
+## `03` Stack
 
 <table align="center">
 <tr>
@@ -64,8 +79,10 @@ const savio = {
 
 ![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square&logo=node.js&logoColor=3DDC97&labelColor=21262D)
 ![Python](https://img.shields.io/badge/Python-21262D?style=flat-square&logo=python&logoColor=F0A202&labelColor=21262D)
-![AWS](https://img.shields.io/badge/AWS-21262D?style=flat-square&logo=amazonaws&logoColor=F0A202&labelColor=21262D)
+![Docker](https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=58A6FF&labelColor=21262D)
+![AWS](https://img.shields.io/badge/AWS%20Certified-21262D?style=flat-square&logo=amazonaws&logoColor=F0A202&labelColor=21262D)
 ![Azure](https://img.shields.io/badge/Azure-21262D?style=flat-square&logo=microsoftazure&logoColor=58A6FF&labelColor=21262D)
+![Terraform](https://img.shields.io/badge/Terraform-21262D?style=flat-square&logo=terraform&logoColor=3DDC97&labelColor=21262D)
 
 </td>
 <td valign="top" width="33%">
@@ -83,7 +100,7 @@ const savio = {
 
 <br/>
 
-## `03` GitHub Stats
+## `04` GitHub Stats
 
 <div align="center">
 

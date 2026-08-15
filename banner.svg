@@ -46,11 +46,11 @@
     <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
   </circle>
   <text x="55" y="34" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1.5">STATUS: ONLINE</text>
-  <text x="860" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">RIO DE JANEIRO · BR</text>
+  <text x="860" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">NITERÓI · RJ · BR</text>
 
   <!-- name -->
   <text x="40" y="108" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="44" font-weight="700" fill="url(#nameGrad)" letter-spacing="-0.5">Sávio Domingos</text>
-  <text x="40" y="136" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Analista SharePoint · Power Platform · Automação</text>
+  <text x="40" y="136" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Full-Stack Developer · SPFx &amp; Power Platform · AWS Certified</text>
 
   <!-- animated underline draw-in -->
   <line x1="40" y1="150" x2="480" y2="150" stroke="#F0A202" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="440" stroke-dashoffset="440">
