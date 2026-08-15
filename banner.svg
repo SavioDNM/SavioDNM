@@ -1,68 +1,118 @@
-<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0B0E14"/>
       <stop offset="55%"  stop-color="#10131C"/>
       <stop offset="100%" stop-color="#141822"/>
     </linearGradient>
-    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#F0A202" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#F0A202" stop-opacity="0.2"/>
+
+    <linearGradient id="cardFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A2029"/>
+      <stop offset="100%" stop-color="#131720"/>
+    </linearGradient>
+
+    <radialGradient id="glowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0A202" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F0A202" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3DDC97" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3DDC97" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C7CEDA"/>
     </linearGradient>
   </defs>
 
-  <rect width="900" height="230" fill="url(#bg)"/>
+  <rect width="900" height="240" fill="url(#bg)"/>
 
-  <!-- faint grid, dashboard feel -->
-  <g stroke="#7C8494" stroke-opacity="0.06" stroke-width="1">
-    <line x1="0" y1="60" x2="900" y2="60"/>
-    <line x1="0" y1="200" x2="900" y2="200"/>
-    <line x1="120" y1="0" x2="120" y2="230"/>
-    <line x1="780" y1="0" x2="780" y2="230"/>
+  <!-- faint grid -->
+  <g stroke="#7C8494" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="64" x2="900" y2="64"/>
+    <line x1="150" y1="0" x2="150" y2="240"/>
+    <line x1="750" y1="0" x2="750" y2="240"/>
   </g>
 
-  <!-- status bar top -->
-  <circle cx="40" cy="30" r="4" fill="#3DDC97"/>
-  <text x="54" y="34" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">STATUS: ONLINE</text>
+  <!-- top status bar -->
+  <circle cx="40" cy="30" r="9" fill="url(#glowMint)"/>
+  <circle cx="40" cy="30" r="4" fill="#3DDC97">
+    <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="55" y="34" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1.5">STATUS: ONLINE</text>
   <text x="860" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">RIO DE JANEIRO · BR</text>
 
   <!-- name -->
-  <text x="40" y="105" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="42" font-weight="700" fill="#E8ECF1" letter-spacing="-0.5">Sávio Domingos</text>
-  <text x="40" y="132" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Analista SharePoint · Power Platform · Automação</text>
+  <text x="40" y="108" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="44" font-weight="700" fill="url(#nameGrad)" letter-spacing="-0.5">Sávio Domingos</text>
+  <text x="40" y="136" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Analista SharePoint · Power Platform · Automação</text>
 
-  <!-- signature flow diagram: trigger -> flow -> deploy -->
-  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8494">
-    <!-- node 1 -->
-    <rect x="40" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#F0A202" stroke-opacity="0.5"/>
-    <circle cx="58" cy="186" r="4" fill="#F0A202"/>
-    <text x="72" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Trigger</text>
-    <text x="72" y="196" fill="#7C8494" font-size="10">SharePoint / Forms</text>
+  <!-- animated underline draw-in -->
+  <line x1="40" y1="150" x2="480" y2="150" stroke="#F0A202" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="440" stroke-dashoffset="440">
+    <animate attributeName="stroke-dashoffset" from="440" to="0" dur="1.2s" fill="freeze" begin="0.2s"/>
+  </line>
 
-    <path d="M170 186 H 235" stroke="#7C8494" stroke-opacity="0.4" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <!-- ===== flow diagram (cards widened: 175px each) ===== -->
+  <g font-family="'JetBrains Mono', monospace">
 
-    <!-- node 2 -->
-    <rect x="235" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#3DDC97" stroke-opacity="0.5"/>
-    <circle cx="253" cy="186" r="4" fill="#3DDC97"/>
-    <text x="267" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Automate</text>
-    <text x="267" y="196" fill="#7C8494" font-size="10">Power Automate</text>
+    <!-- connector 1 : 215 -> 240 -->
+    <path d="M215 196 H 240" stroke="#3A4152" stroke-width="2" fill="none"/>
+    <path d="M215 196 H 240" stroke="#F0A202" stroke-width="2" fill="none" stroke-dasharray="4 6" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <circle r="3" fill="#F0A202">
+      <animateMotion dur="1.6s" repeatCount="indefinite" path="M215 196 H 240"/>
+    </circle>
 
-    <path d="M365 186 H 430" stroke="#7C8494" stroke-opacity="0.4" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <!-- connector 2 : 415 -> 440 -->
+    <path d="M415 196 H 440" stroke="#3A4152" stroke-width="2" fill="none"/>
+    <path d="M415 196 H 440" stroke="#3DDC97" stroke-width="2" fill="none" stroke-dasharray="4 6" stroke-linecap="round">
+      <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <circle r="3" fill="#3DDC97">
+      <animateMotion dur="1.6s" repeatCount="indefinite" path="M415 196 H 440" begin="0.5s"/>
+    </circle>
 
-    <!-- node 3 -->
-    <rect x="430" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#58A6FF" stroke-opacity="0.5"/>
-    <circle cx="448" cy="186" r="4" fill="#58A6FF"/>
-    <text x="462" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Deploy</text>
-    <text x="462" y="196" fill="#7C8494" font-size="10">Azure / AWS</text>
+    <!-- card: Trigger  (x 40 -> 215) -->
+    <circle cx="62" cy="196" r="34" fill="url(#glowAmber)"/>
+    <rect x="40" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#F0A202" stroke-opacity="0.55" stroke-width="1.2"/>
+    <circle cx="62" cy="196" r="13" fill="#0B0E14" stroke="#F0A202" stroke-width="1.4"/>
+    <path d="M64 188 L 58 197 H 63 L 61 204 L 68 194 H 63 Z" fill="#F0A202"/>
+    <text x="86" y="192" fill="#E8ECF1" font-size="13" font-weight="700">Trigger</text>
+    <text x="86" y="206" fill="#7C8494" font-size="10">SharePoint / Forms</text>
+
+    <!-- card: Automate  (x 240 -> 415) -->
+    <circle cx="262" cy="196" r="34" fill="url(#glowMint)"/>
+    <rect x="240" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#3DDC97" stroke-opacity="0.55" stroke-width="1.2"/>
+    <circle cx="262" cy="196" r="13" fill="#0B0E14" stroke="#3DDC97" stroke-width="1.4"/>
+    <g transform="translate(254.1 188.1) scale(0.66)">
+      <path d="M23 4v6h-6" fill="none" stroke="#3DDC97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1 20v-6h6" fill="none" stroke="#3DDC97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10" fill="none" stroke="#3DDC97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15" fill="none" stroke="#3DDC97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 12 12;360 12 12" dur="3.5s" repeatCount="indefinite" additive="sum"/>
+    </g>
+    <text x="286" y="192" fill="#E8ECF1" font-size="13" font-weight="700">Automate</text>
+    <text x="286" y="206" fill="#7C8494" font-size="10">Power Automate</text>
+
+    <!-- card: Deploy  (x 440 -> 615) -->
+    <circle cx="462" cy="196" r="34" fill="url(#glowBlue)"/>
+    <rect x="440" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#58A6FF" stroke-opacity="0.55" stroke-width="1.2"/>
+    <circle cx="462" cy="196" r="13" fill="#0B0E14" stroke="#58A6FF" stroke-width="1.4"/>
+    <path d="M462 189 l 5 8 h -3 v 5 h -4 v -5 h -3 z" fill="#58A6FF">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2; 0 0" dur="1.4s" repeatCount="indefinite"/>
+    </path>
+    <text x="486" y="192" fill="#E8ECF1" font-size="13" font-weight="700">Deploy</text>
+    <text x="486" y="206" fill="#7C8494" font-size="10">Azure / AWS</text>
   </g>
 
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#7C8494" fill-opacity="0.6"/>
-    </marker>
-  </defs>
-
-  <!-- right side accent bar -->
-  <rect x="620" y="160" width="3" height="50" fill="url(#amberGlow)"/>
-  <text x="640" y="180" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8494">build →</text>
-  <text x="640" y="196" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E8ECF1">ship → iterate</text>
+  <!-- right side accent -->
+  <rect x="660" y="172" width="3" height="48" fill="#F0A202" fill-opacity="0.6"/>
+  <text x="680" y="190" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8494">build → ship</text>
+  <text x="680" y="206" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E8ECF1">→ iterate</text>
 </svg>
