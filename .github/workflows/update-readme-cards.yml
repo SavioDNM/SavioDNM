@@ -1,1 +1,39 @@
+name: Update README cards
 
+on:
+  schedule:
+    - cron: "0 3 * * *"   # todo dia às 03:00 UTC (00:00 no horário de Brasília)
+  workflow_dispatch:        # também permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=SavioDNM&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=SavioDNM&layout=compact&langs_count=8&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
