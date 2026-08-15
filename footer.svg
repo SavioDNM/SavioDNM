@@ -1,0 +1,12 @@
+<svg width="900" height="110" viewBox="0 0 900 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgf" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0E14"/>
+      <stop offset="100%" stop-color="#141822"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="110" fill="url(#bgf)"/>
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#F0A202" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="450" y="52" text-anchor="middle" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="18" font-weight="700" fill="#E8ECF1">Sávio Domingos</text>
+  <text x="450" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="0.5">"A melhor forma de aprender é criando."</text>
+</svg>

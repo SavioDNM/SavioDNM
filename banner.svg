@@ -1,0 +1,68 @@
+<svg width="900" height="230" viewBox="0 0 900 230" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0B0E14"/>
+      <stop offset="55%"  stop-color="#10131C"/>
+      <stop offset="100%" stop-color="#141822"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0A202" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F0A202" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="230" fill="url(#bg)"/>
+
+  <!-- faint grid, dashboard feel -->
+  <g stroke="#7C8494" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="120" y1="0" x2="120" y2="230"/>
+    <line x1="780" y1="0" x2="780" y2="230"/>
+  </g>
+
+  <!-- status bar top -->
+  <circle cx="40" cy="30" r="4" fill="#3DDC97"/>
+  <text x="54" y="34" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">STATUS: ONLINE</text>
+  <text x="860" y="34" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#7C8494" letter-spacing="1">RIO DE JANEIRO · BR</text>
+
+  <!-- name -->
+  <text x="40" y="105" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="42" font-weight="700" fill="#E8ECF1" letter-spacing="-0.5">Sávio Domingos</text>
+  <text x="40" y="132" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Analista SharePoint · Power Platform · Automação</text>
+
+  <!-- signature flow diagram: trigger -> flow -> deploy -->
+  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8494">
+    <!-- node 1 -->
+    <rect x="40" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#F0A202" stroke-opacity="0.5"/>
+    <circle cx="58" cy="186" r="4" fill="#F0A202"/>
+    <text x="72" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Trigger</text>
+    <text x="72" y="196" fill="#7C8494" font-size="10">SharePoint / Forms</text>
+
+    <path d="M170 186 H 235" stroke="#7C8494" stroke-opacity="0.4" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- node 2 -->
+    <rect x="235" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#3DDC97" stroke-opacity="0.5"/>
+    <circle cx="253" cy="186" r="4" fill="#3DDC97"/>
+    <text x="267" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Automate</text>
+    <text x="267" y="196" fill="#7C8494" font-size="10">Power Automate</text>
+
+    <path d="M365 186 H 430" stroke="#7C8494" stroke-opacity="0.4" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- node 3 -->
+    <rect x="430" y="165" width="130" height="42" rx="6" fill="#141822" stroke="#58A6FF" stroke-opacity="0.5"/>
+    <circle cx="448" cy="186" r="4" fill="#58A6FF"/>
+    <text x="462" y="181" fill="#E8ECF1" font-size="12" font-weight="600">Deploy</text>
+    <text x="462" y="196" fill="#7C8494" font-size="10">Azure / AWS</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7C8494" fill-opacity="0.6"/>
+    </marker>
+  </defs>
+
+  <!-- right side accent bar -->
+  <rect x="620" y="160" width="3" height="50" fill="url(#amberGlow)"/>
+  <text x="640" y="180" font-family="'JetBrains Mono', monospace" font-size="11" fill="#7C8494">build →</text>
+  <text x="640" y="196" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E8ECF1">ship → iterate</text>
+</svg>
