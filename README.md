@@ -87,9 +87,9 @@ const savio = {
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8" alt="GitHub Stats"/>
+<img height="165em" src="./profile/stats.svg" alt="GitHub Stats"/>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook&exclude_repo=repo-antigo" alt="Top Languages"/>
+<img height="165em" src="./profile/top-langs.svg" alt="Top Languages"/>
 
 </div>
 
@@ -98,10 +98,6 @@ const savio = {
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SavioDNM&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=6" alt="Trophies"/>
-</div>
 
 <br/>
 
