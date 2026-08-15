@@ -5,13 +5,13 @@
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/saviodomingos/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-141822?style=flat-square&logo=linkedin&logoColor=58A6FF"/>
+  <img src="https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=58A6FF&labelColor=21262D" alt="LinkedIn"/>
 </a>
 <a href="mailto:saviocorp@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-141822?style=flat-square&logo=gmail&logoColor=F0A202"/>
+  <img src="https://img.shields.io/badge/Gmail-21262D?style=flat-square&logo=gmail&logoColor=F0A202&labelColor=21262D" alt="Gmail"/>
 </a>
 <a href="https://instagram.com/saviodnm" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-141822?style=flat-square&logo=instagram&logoColor=3DDC97"/>
+  <img src="https://img.shields.io/badge/Instagram-21262D?style=flat-square&logo=instagram&logoColor=3DDC97&labelColor=21262D" alt="Instagram"/>
 </a>
 
 <br/><br/>
@@ -50,32 +50,32 @@ const savio = {
 
 **Front-end**
 
-![HTML](https://img.shields.io/badge/HTML-141822?style=flat-square&logo=html5&logoColor=F0A202)
-![CSS](https://img.shields.io/badge/CSS-141822?style=flat-square&logo=css3&logoColor=58A6FF)
-![JavaScript](https://img.shields.io/badge/JavaScript-141822?style=flat-square&logo=javascript&logoColor=F0A202)
-![TypeScript](https://img.shields.io/badge/TypeScript-141822?style=flat-square&logo=typescript&logoColor=58A6FF)
-![React](https://img.shields.io/badge/React-141822?style=flat-square&logo=react&logoColor=3DDC97)
-![Next.js](https://img.shields.io/badge/Next.js-141822?style=flat-square&logo=next.js&logoColor=E8ECF1)
+![HTML](https://img.shields.io/badge/HTML-21262D?style=flat-square&logo=html5&logoColor=F0A202&labelColor=21262D)
+![CSS](https://img.shields.io/badge/CSS-21262D?style=flat-square&logo=css3&logoColor=58A6FF&labelColor=21262D)
+![JavaScript](https://img.shields.io/badge/JavaScript-21262D?style=flat-square&logo=javascript&logoColor=F0A202&labelColor=21262D)
+![TypeScript](https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=58A6FF&labelColor=21262D)
+![React](https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=3DDC97&labelColor=21262D)
+![Next.js](https://img.shields.io/badge/Next.js-21262D?style=flat-square&logo=next.js&logoColor=E8ECF1&labelColor=21262D)
 
 </td>
 <td valign="top" width="33%">
 
 **Back-end & Cloud**
 
-![Node.js](https://img.shields.io/badge/Node.js-141822?style=flat-square&logo=node.js&logoColor=3DDC97)
-![Python](https://img.shields.io/badge/Python-141822?style=flat-square&logo=python&logoColor=F0A202)
-![AWS](https://img.shields.io/badge/AWS-141822?style=flat-square&logo=amazonaws&logoColor=F0A202)
-![Azure](https://img.shields.io/badge/Azure-141822?style=flat-square&logo=microsoftazure&logoColor=58A6FF)
+![Node.js](https://img.shields.io/badge/Node.js-21262D?style=flat-square&logo=node.js&logoColor=3DDC97&labelColor=21262D)
+![Python](https://img.shields.io/badge/Python-21262D?style=flat-square&logo=python&logoColor=F0A202&labelColor=21262D)
+![AWS](https://img.shields.io/badge/AWS-21262D?style=flat-square&logo=amazonaws&logoColor=F0A202&labelColor=21262D)
+![Azure](https://img.shields.io/badge/Azure-21262D?style=flat-square&logo=microsoftazure&logoColor=58A6FF&labelColor=21262D)
 
 </td>
 <td valign="top" width="33%">
 
 **Microsoft 365 & Design**
 
-![SharePoint](https://img.shields.io/badge/SharePoint-141822?style=flat-square&logo=microsoftsharepoint&logoColor=58A6FF)
-![Power Platform](https://img.shields.io/badge/Power%20Platform-141822?style=flat-square&logo=microsoftpowerplatform&logoColor=3DDC97)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-141822?style=flat-square&logo=microsoftpowerautomate&logoColor=F0A202)
-![Figma](https://img.shields.io/badge/Figma-141822?style=flat-square&logo=figma&logoColor=E8ECF1)
+![SharePoint](https://img.shields.io/badge/SharePoint-21262D?style=flat-square&logo=microsoftsharepoint&logoColor=58A6FF&labelColor=21262D)
+![Power Platform](https://img.shields.io/badge/Power%20Platform-21262D?style=flat-square&logo=microsoftpowerplatform&logoColor=3DDC97&labelColor=21262D)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-21262D?style=flat-square&logo=microsoftpowerautomate&logoColor=F0A202&labelColor=21262D)
+![Figma](https://img.shields.io/badge/Figma-21262D?style=flat-square&logo=figma&logoColor=E8ECF1&labelColor=21262D)
 
 </td>
 </tr>
@@ -87,20 +87,14 @@ const savio = {
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=SavioDNM&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8" alt="GitHub Stats"/>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook&exclude_repo=repo-antigo"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SavioDNM&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook&exclude_repo=repo-antigo" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SavioDNM&theme=github-dark-blue&hide_border=true&background=0B0E14&stroke=F0A202&ring=F0A202&fire=3DDC97&currStreakLabel=F0A202&sideLabels=7C8494&dates=7C8494&border_radius=8" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SavioDNM&bg_color=0B0E14&color=F0A202&line=F0A202&point=E8ECF1&area=true&area_color=141822&hide_border=true&radius=8" width="96%" alt="Activity Graph"/>
+  <img src="https://streak-stats.demolab.com/?user=SavioDNM&theme=github-dark-blue&hide_border=true&background=0B0E14&stroke=F0A202&ring=F0A202&fire=3DDC97&currStreakLabel=F0A202&sideLabels=7C8494&dates=7C8494&border_radius=8" alt="GitHub Streak"/>
 </div>
 
 <br/>
