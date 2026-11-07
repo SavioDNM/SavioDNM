@@ -8,32 +8,74 @@ on:
 permissions:
   contents: write
 
+# Evita dois runs gravando os cards ao mesmo tempo.
+concurrency:
+  group: update-readme-cards
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
+      # GITHUB_TOKEN é um token de integração: a consulta GraphQL de estatísticas
+      # falha com "Resource not accessible by integration" e a action grava um
+      # SVG de erro mesmo assim. Por isso é obrigatório usar um PAT de usuário.
+      # Crie o secret STATS_PAT com um PAT clássico (escopos: read:user e repo).
+      - name: Check STATS_PAT
+        env:
+          STATS_PAT: ${{ secrets.STATS_PAT }}
+        run: |
+          if [ -z "$STATS_PAT" ]; then
+            echo "::error::Secret STATS_PAT ausente. Crie um PAT com read:user (e repo, se quiser contar repositórios privados) em Settings > Secrets > Actions."
+            exit 1
+          fi
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=SavioDNM&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0B0E14&title_color=F0A202&icon_color=3DDC97&text_color=7C8494&border_radius=8
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_PAT }}
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=SavioDNM&layout=compact&langs_count=8&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=0B0E14&title_color=F0A202&text_color=7C8494&border_radius=8&hide=html,jupyter%20notebook
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STATS_PAT }}
+
+      # A action escreve um SVG de erro e ainda termina com sucesso.
+      # Este passo impede que um card quebrado seja commitado em silêncio.
+      - name: Validate generated cards
+        run: |
+          for f in profile/stats.svg profile/top-langs.svg; do
+            if [ ! -s "$f" ]; then
+              echo "::error::$f está vazio ou não foi gerado"
+              exit 1
+            fi
+            if ! grep -q '<svg' "$f"; then
+              echo "::error::$f não é um SVG válido"
+              exit 1
+            fi
+            if grep -qi 'Something went wrong\|Resource not accessible\|Error:' "$f"; then
+              echo "::error::$f contém um card de erro"
+              exit 1
+            fi
+          done
 
       - name: Commit cards
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
-          git commit -m "Update README cards" || exit 0
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração nos cards."
+            exit 0
+          fi
+          git commit -m "chore: update README cards"
           git push

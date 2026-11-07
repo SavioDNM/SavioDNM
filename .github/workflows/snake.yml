@@ -1,28 +1,42 @@
-
-name: Generate snake game
+name: Generate snake animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"   # 00:00 e 12:00 UTC (duas vezes por dia)
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-snake
+  cancel-in-progress: false
 
 jobs:
   build:
-    name: Jobs to update datas
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      # Snake Animation
-      - uses: Sutil/snk@master
-        id: snake-gif
+      - uses: actions/checkout@v4
+
+      - name: Prepare output directory
+        run: mkdir -p dist
+
+      # Versão fixa (evita @master) e input `outputs`, que é o usado pelo snk v3.
+      - name: Generate contribution grid snake
+        uses: Platane/snk@v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-contribution-grid-snake2.svg
-          snake_color: 'blue'
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-dark&color_snake=F0A202
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
+          allow_empty_commit: false
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
