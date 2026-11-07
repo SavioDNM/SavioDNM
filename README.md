@@ -4,19 +4,23 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/saviodomingos/" target="_blank">
+<a href="https://www.linkedin.com/in/saviodomingos/" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/LinkedIn-21262D?style=flat-square&logo=linkedin&logoColor=58A6FF&labelColor=21262D" alt="LinkedIn"/>
 </a>
-<a href="mailto:saviocorp@gmail.com" target="_blank">
+<a href="mailto:saviocorp@gmail.com" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Gmail-21262D?style=flat-square&logo=gmail&logoColor=F0A202&labelColor=21262D" alt="Gmail"/>
 </a>
-<a href="https://instagram.com/saviodnm" target="_blank">
+<a href="https://instagram.com/saviodnm" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Instagram-21262D?style=flat-square&logo=instagram&logoColor=3DDC97&labelColor=21262D" alt="Instagram"/>
 </a>
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=SavioDNM&color=141822&style=flat-square&label=Visitantes"/>
+
+<br/>
+
+[`01` Sobre mim](#01-sobre-mim) · [`02` Trajetória](#02-trajetória) · [`03` Stack](#03-stack) · [`04` GitHub Stats](#04-github-stats) · [`05` Projetos](#05-projetos)
 
 </div>
 
@@ -29,7 +33,7 @@ const savio = {
   nome:       "Sávio Domingos Nogueira Moreno",
   cargo:      "Analista SharePoint @ CSP Tech",
   local:      "Niterói, Rio de Janeiro, Brasil",
-  experiencia:"+3 anos em ambientes Microsoft 365",
+  experiencia: "+3 anos em ambientes Microsoft 365",
   stack:      ["TypeScript", "React", "Next.js", "Node.js", "Docker"],
   plataforma: ["SharePoint / SPFx", "Power Apps", "Power Automate"],
   cloud:      ["AWS (Certified Cloud Practitioner)", "Azure", "Terraform"],
@@ -104,9 +108,9 @@ const savio = {
 
 <div align="center">
 
-<img height="165em" src="./profile/stats.svg" alt="GitHub Stats"/>
+<img src="./profile/stats.svg" alt="GitHub Stats"/>
 
-<img height="165em" src="./profile/top-langs.svg" alt="Top Languages"/>
+<img src="./profile/top-langs.svg" alt="Top Languages"/>
 
 </div>
 
@@ -115,6 +119,18 @@ const savio = {
 </div>
 
 <br/>
+
+## `05` Projetos
+
+Alguns repositórios públicos que mantenho:
+
+| Repositório | Linguagem principal |
+|---|---|
+| [`muda-facil`](https://github.com/SavioDNM/muda-facil) | TypeScript |
+| [`csp-squad-forge`](https://github.com/SavioDNM/csp-squad-forge) | JavaScript |
+| [`mcp-google-calendar`](https://github.com/SavioDNM/mcp-google-calendar) | Python |
+
+[Ver todos os repositórios →](https://github.com/SavioDNM?tab=repositories)
 
 <br/>
 
