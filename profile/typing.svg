@@ -1,0 +1,57 @@
+<svg width="800" height="68" viewBox="0 0 800 68" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">O que eu estou construindo</title>
+  <desc id="d">Frases rotativas sobre portais corporativos, automação, integrações e agentes de IA.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#121722"/>
+      <stop offset="100%" stop-color="#0F131C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#F0A202"/>
+      <stop offset="100%" stop-color="#3DDC97"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .prompt { font: 700 16px 'JetBrains Mono', monospace; fill: #3DDC97; }
+    .line   { font: 500 14px 'JetBrains Mono', 'Courier New', monospace; fill: #E8ECF1; }
+    .path   { font: 500 10px 'JetBrains Mono', monospace; fill: #7C8494; }
+    .caret  { animation: blink 1s step-end infinite; }
+    /* Estado-base: so a 1a frase aparece se o visualizador nao animar CSS. */
+    .p1 { opacity: 1; animation: s1 14s infinite; }
+    .p2, .p3, .p4 { opacity: 0; }
+    .p2 { animation: s2 14s infinite; }
+    .p3 { animation: s3 14s infinite; }
+    .p4 { animation: s4 14s infinite; }
+    .bar { animation: barpulse 3s ease-in-out infinite; }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes s1 { 0%, 23% { opacity: 1; } 25%, 100% { opacity: 0; } }
+    @keyframes s2 { 0%, 24.9% { opacity: 0; } 25%, 48% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes s3 { 0%, 49.9% { opacity: 0; } 50%, 73% { opacity: 1; } 75%, 100% { opacity: 0; } }
+    @keyframes s4 { 0%, 74.9% { opacity: 0; } 75%, 98% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes barpulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .p2, .p3, .p4 { display: none; }
+      .p1 { animation: none; opacity: 1; }
+      .caret, .bar { animation: none; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="799" height="67" rx="10" fill="url(#card)" stroke="#222A38"/>
+  <rect class="bar" x="0" y="8" width="3" height="52" rx="1.5" fill="url(#accent)"/>
+
+  <text x="24" y="41" class="prompt">&gt;</text>
+  <text x="775" y="41" text-anchor="end" class="path">~/savio</text>
+
+  <g class="p1">
+    <text x="46" y="41" class="line">construindo portais corporativos com SPFx<tspan class="caret" fill="#F0A202">|</tspan></text>
+  </g>
+  <g class="p2">
+    <text x="46" y="41" class="line">automatizando processos com Power Platform &amp; n8n<tspan class="caret" fill="#F0A202">|</tspan></text>
+  </g>
+  <g class="p3">
+    <text x="46" y="41" class="line">integrando APIs, cloud e agentes de IA<tspan class="caret" fill="#F0A202">|</tspan></text>
+  </g>
+  <g class="p4">
+    <text x="46" y="41" class="line">build → ship → iterate<tspan class="caret" fill="#F0A202">|</tspan></text>
+  </g>
+</svg>

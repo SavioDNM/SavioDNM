@@ -1,0 +1,31 @@
+<svg width="800" height="16" viewBox="0 0 800 16" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" stop-color="#F0A202" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#F0A202" stop-opacity="0.45"/>
+      <stop offset="80%" stop-color="#3DDC97" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#3DDC97" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="dotGlow">
+      <stop offset="0%" stop-color="#F0A202" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#F0A202" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .dot { animation: travel 6s linear infinite; }
+    @keyframes travel {
+      0%   { transform: translateX(0);   opacity: 0; }
+      8%   { opacity: 1; }
+      92%  { opacity: 1; }
+      100% { transform: translateX(800px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dot { display: none; }
+    }
+  </style>
+  <line x1="0" y1="8" x2="800" y2="8" stroke="url(#fade)" stroke-width="1"/>
+  <g class="dot">
+    <circle cx="0" cy="8" r="7" fill="url(#dotGlow)"/>
+    <circle cx="0" cy="8" r="2" fill="#F0A202"/>
+  </g>
+</svg>

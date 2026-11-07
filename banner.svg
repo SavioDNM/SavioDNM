@@ -28,9 +28,49 @@
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#C7CEDA"/>
     </linearGradient>
+
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.075"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
+  <style>
+    /* Camada CSS complementar às animações SMIL já presentes no arquivo. */
+    .shimmer { animation: shimmer 8s linear infinite; }
+    .glow    { animation: breathe 3.4s ease-in-out infinite; }
+    .g2      { animation-delay: 1.1s; }
+    .g3      { animation-delay: 2.2s; }
+    .float   { animation: drift 4.5s ease-in-out infinite; }
+    .caret   { animation: blink 1.1s step-end infinite; }
+    .runner  { animation: run 3.2s linear infinite; }
+    @keyframes shimmer { from { transform: translateX(-260px); } to { transform: translateX(1160px); } }
+    @keyframes breathe { 0%, 100% { opacity: .40; } 50% { opacity: 1; } }
+    @keyframes drift   { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    @keyframes blink   { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes run {
+      0%      { transform: translateX(0);     opacity: 0; }
+      10%,90% { opacity: 1; }
+      100%    { transform: translateX(440px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .shimmer, .float, .runner { display: none; }
+      .glow  { animation: none; opacity: .7; }
+      .caret { animation: none; opacity: 1; }
+      animate, animateMotion, animateTransform { display: none; }
+    }
+  </style>
+
   <rect width="900" height="240" fill="url(#bg)"/>
+
+  <!-- brilho passante, partículas e ponto que percorre o underline -->
+  <g class="shimmer"><rect x="0" y="0" width="180" height="240" fill="url(#shimmerGrad)" transform="skewX(-18)"/></g>
+  <g fill="#58A6FF" fill-opacity="0.32">
+    <circle class="float" cx="820" cy="72" r="2.6"/>
+    <circle class="float" cx="852" cy="114" r="1.8" style="animation-delay:1.4s"/>
+    <circle class="float" cx="788" cy="132" r="2" fill="#3DDC97" style="animation-delay:2.7s"/>
+  </g>
 
   <!-- faint grid -->
   <g stroke="#7C8494" stroke-opacity="0.05" stroke-width="1">
@@ -51,11 +91,13 @@
   <!-- name -->
   <text x="40" y="108" font-family="'Space Grotesk','Segoe UI',sans-serif" font-size="44" font-weight="700" fill="url(#nameGrad)" letter-spacing="-0.5">Sávio Domingos</text>
   <text x="40" y="136" font-family="'JetBrains Mono', monospace" font-size="14" fill="#F0A202" letter-spacing="0.5">Full-Stack Developer · SPFx &amp; Power Platform · AWS Certified</text>
+  <rect class="caret" x="552" y="123" width="8" height="15" fill="#F0A202"/>
 
   <!-- animated underline draw-in -->
   <line x1="40" y1="150" x2="480" y2="150" stroke="#F0A202" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="440" stroke-dashoffset="440">
     <animate attributeName="stroke-dashoffset" from="440" to="0" dur="1.2s" fill="freeze" begin="0.2s"/>
   </line>
+  <circle class="runner" cx="40" cy="150" r="2.6" fill="#F0A202"/>
 
   <!-- ===== flow diagram (cards widened: 175px each) ===== -->
   <g font-family="'JetBrains Mono', monospace">
@@ -79,7 +121,7 @@
     </circle>
 
     <!-- card: Trigger  (x 40 -> 215) -->
-    <circle cx="62" cy="196" r="34" fill="url(#glowAmber)"/>
+    <circle class="glow" cx="62" cy="196" r="34" fill="url(#glowAmber)"/>
     <rect x="40" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#F0A202" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="62" cy="196" r="13" fill="#0B0E14" stroke="#F0A202" stroke-width="1.4"/>
     <path d="M64 188 L 58 197 H 63 L 61 204 L 68 194 H 63 Z" fill="#F0A202"/>
@@ -87,7 +129,7 @@
     <text x="86" y="206" fill="#7C8494" font-size="10">SharePoint / Forms</text>
 
     <!-- card: Automate  (x 240 -> 415) -->
-    <circle cx="262" cy="196" r="34" fill="url(#glowMint)"/>
+    <circle class="glow g2" cx="262" cy="196" r="34" fill="url(#glowMint)"/>
     <rect x="240" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#3DDC97" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="262" cy="196" r="13" fill="#0B0E14" stroke="#3DDC97" stroke-width="1.4"/>
     <g transform="translate(254.1 188.1) scale(0.66)">
@@ -101,7 +143,7 @@
     <text x="286" y="206" fill="#7C8494" font-size="10">Power Automate</text>
 
     <!-- card: Deploy  (x 440 -> 615) -->
-    <circle cx="462" cy="196" r="34" fill="url(#glowBlue)"/>
+    <circle class="glow g3" cx="462" cy="196" r="34" fill="url(#glowBlue)"/>
     <rect x="440" y="172" width="175" height="48" rx="10" fill="url(#cardFill)" stroke="#58A6FF" stroke-opacity="0.55" stroke-width="1.2"/>
     <circle cx="462" cy="196" r="13" fill="#0B0E14" stroke="#58A6FF" stroke-width="1.4"/>
     <path d="M462 189 l 5 8 h -3 v 5 h -4 v -5 h -3 z" fill="#58A6FF">
