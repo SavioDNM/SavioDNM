@@ -2,6 +2,8 @@
 
 <img src="banner.svg" width="100%" alt="Sávio Domingos"/>
 
+<img src="./profile/typing.svg" width="100%" alt="O que estou construindo agora"/>
+
 <br/><br/>
 
 <a href="https://www.linkedin.com/in/saviodomingos/" target="_blank" rel="noopener noreferrer">
@@ -20,7 +22,7 @@
 
 <br/>
 
-[`01` Sobre mim](#01-sobre-mim) · [`02` Trajetória](#02-trajetória) · [`03` Stack](#03-stack) · [`04` GitHub Stats](#04-github-stats) · [`05` Projetos](#05-projetos)
+[`01` Sobre mim](#01-sobre-mim) · [`02` Trajetória](#02-trajetória) · [`03` Stack](#03-stack) · [`04` GitHub Stats](#04-github-stats) · [`05` Atividade](#05-atividade) · [`06` Projetos](#06-projetos)
 
 </div>
 
@@ -104,6 +106,8 @@ const savio = {
 
 <br/>
 
+<img src="./profile/divider.svg" width="100%" alt=""/>
+
 ## `04` GitHub Stats
 
 <div align="center">
@@ -120,7 +124,21 @@ const savio = {
 
 <br/>
 
-## `05` Projetos
+<img src="./profile/divider.svg" width="100%" alt=""/>
+
+## `05` Atividade
+
+Mapa de contribuições dos últimos 12 meses — atualizado automaticamente todo dia:
+
+<div align="center">
+
+<img src="./profile/activity.svg" width="100%" alt="Mapa animado de contribuições dos últimos 12 meses"/>
+
+</div>
+
+<br/>
+
+## `06` Projetos
 
 Alguns repositórios públicos que mantenho:
 
@@ -133,6 +151,16 @@ Alguns repositórios públicos que mantenho:
 [Ver todos os repositórios →](https://github.com/SavioDNM?tab=repositories)
 
 <br/>
+
+<div align="center">
+
+**Vamos construir algo junto?** · [LinkedIn](https://www.linkedin.com/in/saviodomingos/) · [Gmail](mailto:saviocorp@gmail.com)
+
+</div>
+
+<br/>
+
+<img src="./profile/divider.svg" width="100%" alt=""/>
 
 <div align="center">
 <img src="footer.svg" width="100%" alt="Sávio Domingos"/>

@@ -49,11 +49,19 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_PAT }}
 
+      # Heatmap animado de contribuições (dados reais via GraphQL).
+      # Se a API falhar, mantém o SVG já versionado em vez de quebrar os cards.
+      - name: Generate animated activity heatmap
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.STATS_PAT }}
+        run: python3 scripts/generate_activity.py profile/activity.svg
+
       # A action escreve um SVG de erro e ainda termina com sucesso.
       # Este passo impede que um card quebrado seja commitado em silêncio.
       - name: Validate generated cards
         run: |
-          for f in profile/stats.svg profile/top-langs.svg; do
+          for f in profile/stats.svg profile/top-langs.svg profile/activity.svg; do
             if [ ! -s "$f" ]; then
               echo "::error::$f está vazio ou não foi gerado"
               exit 1
