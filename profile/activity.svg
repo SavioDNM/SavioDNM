@@ -2,7 +2,7 @@
      xmlns="http://www.w3.org/2000/svg" role="img"
      aria-labelledby="title desc">
   <title id="title">Contribuições de SavioDNM nos últimos 12 meses</title>
-  <desc id="desc">841 contribuições, maior sequência de 18 dias.</desc>
+  <desc id="desc">898 contribuições, maior sequência de 18 dias.</desc>
   <defs>
     <clipPath id="gridClip">
       <rect x="27" y="50" width="742" height="102" rx="6"/>
@@ -36,7 +36,7 @@
         fill="#0B0E14" stroke="#222A38"/>
   <text x="25" y="32" class="header">Contribuições · últimos 12 meses</text>
   <text x="775" y="31" text-anchor="end" class="meta">
-    TOTAL 841 · MAIOR SEQUÊNCIA 18 DIAS
+    TOTAL 898 · MAIOR SEQUÊNCIA 18 DIAS
   </text>
 
   <g clip-path="url(#gridClip)">
@@ -405,7 +405,7 @@
     <rect class="c" x="743" y="122" width="11" height="11" rx="2.5" fill="#1B2230" style="animation-delay:856ms"/>
     <rect class="c hot" x="743" y="136" width="11" height="11" rx="2.5" fill="#3DDC97" style="animation-delay:864ms"/>
     <rect class="c hot" x="757" y="52" width="11" height="11" rx="2.5" fill="#3DDC97" style="animation-delay:832ms"/>
-    <rect class="c" x="757" y="66" width="11" height="11" rx="2.5" fill="#1B2230" style="animation-delay:840ms"/>
+    <rect class="c hot" x="757" y="66" width="11" height="11" rx="2.5" fill="#3DDC97" style="animation-delay:840ms"/>
     <rect class="c" x="757" y="80" width="11" height="11" rx="2.5" fill="#1B2230" style="animation-delay:848ms"/>
     <rect class="c" x="757" y="94" width="11" height="11" rx="2.5" fill="#1B2230" style="animation-delay:856ms"/>
     <rect class="c" x="757" y="108" width="11" height="11" rx="2.5" fill="#1B2230" style="animation-delay:864ms"/>
