@@ -2,7 +2,7 @@
      xmlns="http://www.w3.org/2000/svg" role="img"
      aria-labelledby="title desc">
   <title id="title">Contribuições de SavioDNM nos últimos 12 meses</title>
-  <desc id="desc">964 contribuições, maior sequência de 18 dias.</desc>
+  <desc id="desc">933 contribuições, maior sequência de 18 dias.</desc>
   <defs>
     <clipPath id="gridClip">
       <rect x="27" y="50" width="742" height="102" rx="6"/>
@@ -36,7 +36,7 @@
         fill="#0B0E14" stroke="#222A38"/>
   <text x="25" y="32" class="header">Contribuições · últimos 12 meses</text>
   <text x="775" y="31" text-anchor="end" class="meta">
-    TOTAL 964 · MAIOR SEQUÊNCIA 18 DIAS
+    TOTAL 933 · MAIOR SEQUÊNCIA 18 DIAS
   </text>
 
   <g clip-path="url(#gridClip)">
